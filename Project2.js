@@ -15,7 +15,6 @@ function getWeatherByLocation(city) {
     
 }
 
-
 function addWeatherToPage(data) {
     
 const temp= Math.floor(data.main.temp -273.15);
@@ -51,8 +50,6 @@ main.appendChild(weather)
     }
 
  })
-
-
  
 getWeatherByLocation("mumbai");
 
