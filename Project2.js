@@ -53,7 +53,6 @@ main.appendChild(weather)
  })
 
 
+ 
 getWeatherByLocation("mumbai");
-
-document.getElementById("title").innerText= data[0].login;
 
