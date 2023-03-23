@@ -3,9 +3,6 @@ const form = document.getElementById("form");
 const main = document.getElementById("main");
 const search = document.getElementById("search");
 
-
-
-
 function getWeatherByLocation(city) {
     fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=d102ce6f8a7f8c61a416505fdeb98697`
